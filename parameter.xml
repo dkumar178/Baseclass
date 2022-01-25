@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="email" value="dkumar178"></parameter>
+	<parameter name="pass" value="Saibaba@123"></parameter>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testingmvn.AdactinLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
